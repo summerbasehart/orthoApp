@@ -1,5 +1,5 @@
 <div class="container">
-    <p *ngIf="Image.length = 0" class="no-data text-center">There is no image added yet!</p>
+    <p *ngIf="Image.length <= 0" class="no-data text-center">There is no image added yet!</p>
   
     <table class="table table-bordered" *ngIf="Image.length > 0" width="75%">
       <thead class="table-success">
