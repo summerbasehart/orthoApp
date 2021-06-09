@@ -1,0 +1,21 @@
+td {
+    max-width: 300px;
+    white-space:normal;
+
+}
+
+td:hover {
+    cursor: pointer
+}
+
+.materialboxed {
+    align-self: center;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.materialboxed:hover {
+    transform: scale(1.5);
+}
